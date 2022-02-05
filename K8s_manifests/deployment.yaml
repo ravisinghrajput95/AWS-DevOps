@@ -19,6 +19,7 @@ spec:
     spec:
       containers:
         - image: 074460413322.dkr.ecr.us-west-2.amazonaws.com/cicd-demo:latest
+        
           imagePullPolicy: Always
           name: cicd-demo
           ports:
